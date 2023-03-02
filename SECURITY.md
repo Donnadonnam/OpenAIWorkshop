@@ -1,4 +1,130 @@
-<!-- BEGIN MICROSOFT SECURITY.MD V0.0.8 BLOCK -->
+"name": "@security-alert/share",
+  "version": "1.10.9",
+    "description": "security alert shared lib",
+      "keywords": [
+          "cli",
+              "console",
+                  "github",
+                      "issue",
+                          "security",
+                              "tool"
+                                ],
+                                  "homepage": "https://github.com/security-alert/security-alert",
+                                    "bugs": {
+                                        "url": "https://github.com/security-alert/security-alert/issues"
+                                          },
+                                            "repository": {
+                                                "type": "git",
+                                                    "url": "https://github.com/security-alert/security-alert.git"
+                                                      },
+                                                        "license": "MIT",
+                                                          "author": "azu",
+                                                            "files": [
+                                                                "bin/",
+                                                                    "lib/",
+                                                                        "src/"
+                                                                          ],
+                                                                            "main": "lib/index.js",
+                                                                              "types": "lib/index.d.ts",
+                                                                                "directories": {
+                                                                                    "lib": "lib",
+                                                                                        "test": "test"
+                                                                                          },
+                                                                                            "scripts": {
+                                                                                                "build": "cross-env NODE_ENV=production tsc -p .",
+                                                                                                    "clean": "rimraf lib/",
+                                                                                                        "prepublish": "npm run --if-present build",
+                                                                                                            "test": "mocha \"test/**/*.ts\"",
+                                                                                                                "watch": "tsc -p . --watch"
+                                                                                                                  },
+                                                                                                                    "devDependencies": {
+                                                                                                                        "@types/lodash": "^4.14.191",
+                                                                                                                            "@types/meow": "^5.0.0",
+                                                                                                                                "@types/mocha": "^10.0.1",
+                                                                                                                                    "@types/nock": "^11.1.0",
+                                                                                                                                        "@types/node": "^18.11.18",
+                                                                                                                                            "cross-env": "^7.0.2",
+                                                                                                                                                "mocha": "^10.2.0",
+                                                                                                                                                    "nock": "^13.3.0",
+                                                                                                                                                        "rimraf": "^4.0.4",
+                                                                                                                                                            "ts-node": "^10.9.1",
+                                                                                                                                                                "ts-node-test-register": "^10.0.0",
+                                                                                                                                                                    "typescript": "^4.9.4"
+                                                                                                                                                                      },
+                                                                                                                                                                        "dependencies": {
+                                                                                                                                                                            "@npm/types": "^1.0.2",
+                                                                                                                                                                                "@octokit/graphql": "^4.5.3",
+                                                                                                                                                                                    "@octokit/rest": "^18.0.3",
+                                                                                                                                                                                        "@octokit/types": "^6.34.0",
+                                                                                                                                                                                            "@yarnpkg/lockfile": "^1.0.0",
+                                                                                                                                                                                                "meow": "^7.0.1"
+                                                                                                                                                                                                  },
+                                                                                                                                                                                                    "gitHead": "e39f24b9b4729ae26ab590906555d67270ae566d",
+                                                                                                                                                                                                      "publishConfig": {
+                                                                                                                                                                                                          "access": "public""name": "@security-alert/share",
+  "version": "1.10.9",
+  "description": "security alert shared lib",
+  "keywords": [
+    "cli",
+    "console",
+    "github",
+    "issue",
+    "security",
+    "tool"
+  ],
+  "homepage": "https://github.com/security-alert/security-alert",
+  "bugs": {
+    "url": "https://github.com/security-alert/security-alert/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/security-alert/security-alert.git"
+  },
+  "license": "MIT",
+  "author": "azu",
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production tsc -p .",
+    "clean": "rimraf lib/",
+    "prepublish": "npm run --if-present build",
+    "test": "mocha \"test/**/*.ts\"",
+    "watch": "tsc -p . --watch"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.191",
+    "@types/meow": "^5.0.0",
+    "@types/mocha": "^10.0.1",
+    "@types/nock": "^11.1.0",
+    "@types/node": "^18.11.18",
+    "cross-env": "^7.0.2",
+    "mocha": "^10.2.0",
+    "nock": "^13.3.0",
+    "rimraf": "^4.0.4",
+    "ts-node": "^10.9.1",
+    "ts-node-test-register": "^10.0.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@npm/types": "^1.0.2",
+    "@octokit/graphql": "^4.5.3",
+    "@octokit/rest": "^18.0.3",
+    "@octokit/types": "^6.34.0",
+    "@yarnpkg/lockfile": "^1.0.0",
+    "meow": "^7.0.1"
+  },
+  "gitHead": "e39f24b9b4729ae26ab590906555d67270ae566d",
+  "publishConfig": {
+    "access": "public",')><!-- BEGIN MICROSOFT SECURITY.MD V0.0.8 BLOCK -->
 
 ## Security
 
